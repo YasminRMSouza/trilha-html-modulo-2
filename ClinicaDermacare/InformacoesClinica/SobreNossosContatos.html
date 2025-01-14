@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre a Clinica de Dermatologia</title>
+    <link rel="stylesheet" href="/css/styleClinicaDermacare.css">
+
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <div class="menu-toggle">☰</div>
+            <div class="menu">
+                <ul>
+                    <li><a href="/InformacoesClinica/SobreClinica.html">Sobre</a></li>
+                    <li><a href="/InformacoesClinica/SobreNossosServicos.html">Serviços</a></li>
+                    <li><a href="/InformacoesClinica/SobreNossosContatos.html">Contato</a></li>
+                    <li><a href="/index.html">Página Principal</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="main">
+            <div class="header">
+                <nav class="container">
+                    <img src="../image/ClinicaDermacare.png">
+                </nav>
+            </div>
+
+            <div class="content">
+                <section id="contato">
+                    <h2>Entre em Contato com a gente para mais informações!</h2>
+                        <br>
+                        <h2>Contatos</h2>
+                            <p><strong>Telefone:</strong> (61) 1234-5678</p>
+                            <p><strong>E-mail:</strong> contato@clinicadermato.com.br</p>
+                            <p>Você também pode entrar em contato com a gente pelo formulário abaixo:</p>
+                            <form action="/enviar-mensagem" method="post">
+                                <div class="form-group">
+                                    <label for="name">Nome:</label>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">E-mail:</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="assunto">Assunto:</label>
+                                    <input type="text" id="assunto" name="assunto" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Mensagem:</label>
+                                    <textarea id="message" name="message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit">Enviar Mensagem</button>
+                            </form>
+                        <br>
+                        <h2>Localização</h2>
+                        <div class="contact-info">
+                            <p><strong>Endereço:</strong> Rua das Flores, 123 - Centro, São Paulo, SP</p>
+                        </div>
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.5110668272253!2d-46.65275428441826!3d-23.55569428468574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzIwLjYiUyA0NsKwMzknMDguOSJX!5e0!3m2!1spt-BR!2sbr!4v1616171942380!5m2!1spt-BR!2sbr" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                </section><br><br>
+                <button><a href="../index.html">Voltar ao menu principal</a></button>
+            </div>
+
+            <div class="footer">
+                <p>&copy; 2024 Clínica Dermatológica. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
