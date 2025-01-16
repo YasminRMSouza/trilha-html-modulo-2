@@ -113,17 +113,36 @@ table td {
     border: 2px solid black;
 }
 
-button {
-    font-size: 13px;
-    margin: 0% 0% 0% 50%; 
-    cursor: pointer;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 160px;
+.content i, a {
+    font-size: 16px;
 }
 
-button:hover {
+.content a {
+    text-decoration: none;
+    color: #1d19ff;
+    user-select: none; 
+    cursor: pointer;
+}
+
+.content a:hover {
+    color: #7fff00;
+}
+
+.goback a {
+    font-size: 13px;
+    margin: 0% 0% 0% 50%;
+    text-decoration: none;
+    color: #160d0d;
+    user-select: none; 
+    cursor: pointer;
+    background-color: #ebebeb;
+    border: 2px solid #000000;
+    border-radius: 4px;
+}
+
+.goback a:hover {
     background-color: #9cdbff;
+    color: #00008b;
 }
 
 .form-group {
@@ -137,6 +156,10 @@ label {
     margin-left: 20%;
     margin-bottom: 1%;
     font-weight: bold;
+}
+
+.contact-info p {
+    text-align: center;
 }
 
 input, textarea {
